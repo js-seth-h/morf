@@ -1,0 +1,39 @@
+{
+
+  "name": "morf",
+  "version": "0.1.0",
+  "main": "index",
+  "scripts": {
+    "build": "coffee -c -b -o lib-js lib  ",
+    "prepublish": "npm run-script build",
+    "test": "mocha"
+  },
+
+  "author": {
+    "name": "js.seth.h@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/js-seth-h/morf/issues"
+  },
+  "dependencies": {},
+  "description": "morf",
+  "devDependencies": {},
+  "homepage": "https://github.com/js-seth-h/morf",
+  "keywords": [
+    "json to Object",
+    "object to querystring",
+    "object to json"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "js.seth.h",
+      "email": "js.seth.h@gmail.com"
+    }
+  ],
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/js-seth-h/morf.git"
+  }
+}
